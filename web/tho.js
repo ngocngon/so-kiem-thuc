@@ -1,6 +1,6 @@
 /* Luồng chạy nền của bản web: tải Python (Pyodide), chạy code làm sổ, lưu dữ liệu vào trình duyệt (IndexedDB). */
 const PYODIDE = 'https://cdn.jsdelivr.net/pyodide/v0.26.4/full/';
-const FILE_PY = ['app.py', 'tao_so.py', 'so_buoc1.py', 'dinh_luong.json', 'mon_biet.json', 'so_tay_mon.json', 'web/cau_noi.py'];
+const FILE_PY = ['app.py', 'tao_so.py', 'so_buoc1.py', 'dinh_luong.json', 'mon_biet.json', 'so_tay_mon.json', 'web/cau_noi.py', 'mau/viet_mau.xlsx'];
 const DATA = '/du_lieu_web';
 importScripts(PYODIDE + 'pyodide.js');
 
@@ -24,7 +24,7 @@ const sanSang = (async () => {
   await new Promise((ok, loi) => py.FS.syncfs(true, e => e ? loi(e) : ok()));
   bao('tien_do', 'Đang nạp code làm sổ...');
   const phien = new URL(self.location.href).searchParams.get('v') || Date.now();
-  py.FS.mkdirTree('/app/web');
+  py.FS.mkdirTree('/app/web'); py.FS.mkdirTree('/app/mau');
   for (const f of FILE_PY) {
     const r = await fetch(new URL('../' + f + '?v=' + phien, self.location.href));
     if (!r.ok) throw new Error('Không tải được ' + f);

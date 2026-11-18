@@ -22,6 +22,8 @@ P_ST = os.path.join(GHI, 'so_tay_mon.json')
 P_TEN = os.path.join(DU_LIEU, 'ten_file.json')
 P_NHAP = os.path.join(DU_LIEU, 'nhap_tay.json')
 P_MA = os.path.join(DU_LIEU, 'ma_truy_cap.txt')
+# File VIỆT MẪU chuẩn đi kèm app; quản trị có thể thay bằng file riêng (lưu ở du_lieu/mau.xlsx)
+MAU_GOC = os.path.join(GOC, 'mau', 'viet_mau.xlsx')
 FILE = {'thuc_don': os.path.join(DU_LIEU, 'thuc_don.xlsx'), 'mau': os.path.join(DU_LIEU, 'mau.xlsx'),
         'so_kho': os.path.join(DU_LIEU, 'so_kho.xlsx'), 'so_tuoi': os.path.join(DU_LIEU, 'so_tuoi.xlsx'), 'thuc_don_han': os.path.join(DU_LIEU, 'thuc_don_han.xlsx')}
 CONG = int(os.environ.get('PORT') or os.environ.get('CONG_APP') or 8765)
@@ -35,9 +37,18 @@ HAN_PHIEN = 30 * 86400
 CAN_QT = 'Việc này cần đăng nhập bằng mã quản trị' if DAM_MAY else 'Việc này chỉ làm được trên máy chạy app'
 SAI = {}           # ip -> (số lần nhập sai, khoá đến lúc)
 # Máy khác chỉ làm sổ; sửa cấu hình và điều khiển app chỉ từ chính máy chạy app
-CHI_MAY_NAY = {'/api/quy_tac', '/api/thu_quy_tac', '/api/so_tay', '/api/khoi_phuc', '/api/mo_thu_muc', '/api/doi_ma', '/api/tat'}
+CHI_MAY_NAY = {'/api/mau_chuan', '/api/quy_tac', '/api/thu_quy_tac', '/api/so_tay', '/api/khoi_phuc', '/api/mo_thu_muc', '/api/doi_ma', '/api/tat'}
 PHIEN_BAN = hashlib.sha1(b''.join(open(os.path.join(GOC, f), 'rb').read() for f in ('app.py', 'tao_so.py', 'so_buoc1.py'))).hexdigest()
 
+
+def p_mau():
+    return FILE['mau'] if os.path.exists(FILE['mau']) else MAU_GOC
+
+def mau_chuan():
+    """Bỏ file mẫu đã thay, dùng lại mẫu chuẩn đi kèm app."""
+    if os.path.exists(FILE['mau']): os.remove(FILE['mau'])
+    ten = doc_json(P_TEN, {}); ten.pop('mau', None); ghi_json(P_TEN, ten)
+    return trang_thai()
 
 def doc_json(p, mac_dinh):
     return json.load(open(p, encoding='utf-8')) if os.path.exists(p) else mac_dinh
@@ -251,7 +262,7 @@ def thu_quy_tac(moi, ngay):
 
 
 def tao(ds_ngay):
-    if not os.path.exists(FILE['mau']): raise ValueError('Chưa tải file mẫu')
+    if not os.path.exists(p_mau()): raise ValueError('Không tìm thấy file Việt mẫu')
     os.makedirs(KET_QUA, exist_ok=True)
     kq = []
     for ngay in ds_ngay:
@@ -263,9 +274,9 @@ def tao(ds_ngay):
             tam = os.path.join(KET_QUA, f'.dang_tao_{ngay}.xlsx')
             nhap = nhap_cua(ngay)
             ds_ngay = T.cac_ngay(can_file())
-            T.ghi_ra(FILE['mau'], sach, ngay, nhat_ky, tam, nhap, ds_ngay, 'chot')
+            T.ghi_ra(p_mau(), sach, ngay, nhat_ky, tam, nhap, ds_ngay, 'chot')
             ten_kt = f'So_{ngay}_kiem_tra.xlsx'
-            T.ghi_ra(FILE['mau'], sach, ngay, nhat_ky, os.path.join(KET_QUA, f'.dang_tao_kt_{ngay}.xlsx'), nhap, ds_ngay, 'kiem')
+            T.ghi_ra(p_mau(), sach, ngay, nhat_ky, os.path.join(KET_QUA, f'.dang_tao_kt_{ngay}.xlsx'), nhap, ds_ngay, 'kiem')
             # Bản cũ có thể đã điền tay số trái cây, sữa nên không ghi đè
             if os.path.exists(ra):
                 os.replace(ra, os.path.join(KET_QUA, f"So_{ngay}_cu_{datetime.datetime.now():%Y%m%d_%H%M%S}.xlsx"))
@@ -320,7 +331,7 @@ def doi_chieu_so(ten, du_lieu):
         ngay = h['ngay']
         if ngay not in T.cac_ngay(can_file()): raise ValueError(f'Thực đơn đang chọn không có ngày {ngay}. Hãy chọn đúng thực đơn tuần ở bước 1.')
         s, nk, _ = lap(ngay)
-        T.ghi_ra(FILE['mau'], s, ngay, nk, ra, nhap_cua(ngay), T.cac_ngay(can_file()), 'chot')
+        T.ghi_ra(p_mau(), s, ngay, nk, ra, nhap_cua(ngay), T.cac_ngay(can_file()), 'chot')
         return dict(T.so_sanh(h, T.doc_so(ra)), ngay=ngay, ten=ten, kg=T.Q['sai_so_kg'], pt=T.Q['sai_so_pt'])
 
 
@@ -363,7 +374,8 @@ def trang_thai():
         ds = sorted((f for f in os.listdir(KET_QUA) if f.endswith('.xlsx') and not f.startswith('.')),
                     key=lambda f: os.path.getmtime(os.path.join(KET_QUA, f)), reverse=True)[:30]
     ten = doc_json(P_TEN, {})
-    return dict(thuc_don=ten.get('thuc_don') if co else None, mau=ten.get('mau') if os.path.exists(FILE['mau']) else None,
+    return dict(thuc_don=ten.get('thuc_don') if co else None, mau=ten.get('mau') if os.path.exists(FILE['mau']) else ('VIỆT MẪU chuẩn (đi kèm app)' if os.path.exists(MAU_GOC) else None),
+                mau_rieng=os.path.exists(FILE['mau']),
                 ngay=T.cac_ngay(FILE['thuc_don']) if co else [], ket_qua=ds,
                 **{k: ten.get(k) if os.path.exists(FILE[k]) else None for k in ('so_kho', 'so_tuoi', 'thuc_don_han')})
 
@@ -654,6 +666,7 @@ class XuLy(BaseHTTPRequestHandler):
                '/api/khoi_phuc': lambda: (khoi_phuc(d.get('file')), dict(ok=True))[1],
                '/api/mo_thu_muc': mo_thu_muc,
                '/api/doi_ma': doi_ma,
+               '/api/mau_chuan': mau_chuan,
                '/api/tat': lambda: (threading.Timer(0.3, os._exit, [0]).start(), dict(ok=True))[1],
                }.get(u.path)
         if ham: return self.chay(ham)

@@ -11,3 +11,4 @@ quy_tac.json
 __pycache__/
 *.pyc
 .DS_Store
+!mau/viet_mau.xlsx
