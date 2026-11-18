@@ -1264,7 +1264,7 @@ $('tatApp').onclick=async()=>{
 (async()=>{
   moTab('lam'); veMucQt();
   try {
-    if (window.WEB) { document.body.classList.add('web'); await WEB.sanSang; }
+    if (window.WEB) { document.body.classList.add('web'); document.querySelector('.chan-ben').innerHTML='<b>Bản web, chạy trên máy này</b>Thực đơn và sổ không gửi đi đâu'; await WEB.sanSang; }
     await taiQt();
     veTrangThai(await goi('/api/trang_thai'));
     document.body.classList.toggle('khach',!TT.may_chu);
