@@ -12,6 +12,7 @@ import so_buoc1 as B1
 GOC = os.path.dirname(os.path.abspath(__file__))
 # Chế độ máy chủ đám mây (Render...): bật bằng SKT_DAM_MAY=1. Không bật thì app chạy như cũ trên máy này.
 DAM_MAY = os.environ.get('SKT_DAM_MAY', '').strip() not in ('', '0')
+WEB = os.environ.get('SKT_WEB', '').strip() not in ('', '0')   # bản chạy trong trình duyệt (GitHub Pages)
 GHI = os.environ.get('SKT_DU_LIEU') or GOC          # nơi lưu dữ liệu; trên máy chủ là ổ đĩa riêng
 DU_LIEU = os.path.join(GHI, 'du_lieu')
 KET_QUA = os.path.join(GHI, 'ket_qua')
@@ -599,7 +600,7 @@ class XuLy(BaseHTTPRequestHandler):
             if not self.la_quan_tri(): return self.tra(dict(loi=CAN_QT), 403)
             if DAM_MAY: return self.chay(lambda: dict(dia_chi=['https://' + self.headers.get('Host', '')], ma=MA_DUNG))
             return self.chay(lambda: dict(dia_chi=dia_chi(), ma=ma_truy_cap()))
-        if u.path == '/api/trang_thai': return self.chay(lambda: dict(trang_thai(), may_chu=self.la_quan_tri(), dam_may=DAM_MAY))
+        if u.path == '/api/trang_thai': return self.chay(lambda: dict(trang_thai(), may_chu=self.la_quan_tri(), dam_may=DAM_MAY, web=WEB))
         if u.path == '/api/xem': return self.chay(lambda: xem(h.get('ngay', '')))
         if u.path == '/api/quy_tac': return self.chay(lambda: dict(q=T.Q, mac_dinh=T.MAC_DINH))
         if u.path == '/api/nhap': return self.chay(lambda: xem_nhap(h.get('ngay', '')))
@@ -627,6 +628,8 @@ class XuLy(BaseHTTPRequestHandler):
         if not self.dung_nguon(): return self.tu_choi()
         if u.path in CHI_MAY_NAY and not self.la_quan_tri():
             return self.tra(dict(loi=CAN_QT), 403)
+        if WEB and u.path in ('/api/tat', '/api/mo_thu_muc', '/api/doi_ma'):
+            return self.tra(dict(loi='Bản web không có việc này: file tải về bằng cách bấm tên file'), 400)
         if DAM_MAY and u.path == '/api/tat':
             return self.tra(dict(loi='App trên máy chủ không tắt từ đây; tạm dừng ở trang quản lý của Render'), 400)
         than = self.rfile.read(int(self.headers.get('Content-Length', 0) or 0))

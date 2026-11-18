@@ -161,6 +161,9 @@ details>div{padding-top:10px}
 #bao.hien{opacity:1}
 body.khach .qt-ben,body.khach #moThuMuc{display:none}
 .chi-dam-may{display:none}
+body.web #moThuMuc,body.web [data-tab="truycap"]{display:none}
+#webTai{position:fixed;inset:0;z-index:99;display:flex;align-items:center;justify-content:center;background:var(--nen,#f6f7f9);text-align:center;padding:16px}
+#webTai h2{margin-bottom:8px}#webTai p{max-width:420px;margin:6px auto}
 body.dam-may .chi-may,body.dam-may #moThuMuc,body.dam-may #doiMa{display:none}
 body.dam-may .chi-dam-may{display:block}
 .ma-tc{display:inline-block;margin:2px 0 14px;padding:8px 16px;border-radius:9px;background:var(--nen);font:600 24px/1.3 ui-monospace,Menlo,monospace;letter-spacing:.1em}
@@ -212,6 +215,11 @@ dialog .hang{justify-content:flex-end}
   .thanh .day{margin-left:0}
 }
 </style>
+<script>
+/* Bản web trên GitHub Pages: Python chạy trong trình duyệt thay cho máy chủ */
+window.LA_WEB = /\.github\.io$/.test(location.hostname) || new URLSearchParams(location.search).has('web');
+if (window.LA_WEB) document.write('<script src="web/may_web.js"><\/script>');
+</script>
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
@@ -728,7 +736,8 @@ const G = {nhapNgay:null, nhapCa:'SÁNG', ktNgay:null, ktCa:'SÁNG', ktLoai:'b2'
 function bao(t){ const b=$('bao'); b.textContent=t; b.classList.add('hien'); clearTimeout(b.h); b.h=setTimeout(()=>b.classList.remove('hien'),4000); }
 async function goi(url, opt){
   let r;
-  try { r = await fetch(url, opt); } catch { throw new Error('Không kết nối được với app. Hãy kiểm tra máy chạy app đang bật và app đang chạy.'); }
+  try { r = await (window.WEB ? WEB.fetch(url, opt) : fetch(url, opt)); }
+  catch(e) { throw new Error(window.WEB ? 'Bản web chưa chạy được: ' + e.message : 'Không kết nối được với app. Hãy kiểm tra máy chạy app đang bật và app đang chạy.'); }
   if(r.status===401){ location.reload(); throw new Error('Cần nhập lại mã truy cập'); }
   const d = await r.json().catch(()=>({loi:CAN_MO_LAI}));
   if (d && d.loi) throw new Error(d.loi === 'Không có trang này' ? CAN_MO_LAI : d.loi);
@@ -1255,6 +1264,7 @@ $('tatApp').onclick=async()=>{
 (async()=>{
   moTab('lam'); veMucQt();
   try {
+    if (window.WEB) { document.body.classList.add('web'); await WEB.sanSang; }
     await taiQt();
     veTrangThai(await goi('/api/trang_thai'));
     document.body.classList.toggle('khach',!TT.may_chu);
