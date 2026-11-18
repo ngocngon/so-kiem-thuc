@@ -1429,8 +1429,9 @@ $('tatApp').onclick=async()=>{
     veTrangThai(await goi('/api/trang_thai'));
     document.body.classList.toggle('khach',!TT.may_chu);
     document.body.classList.toggle('dam-may',!!TT.dam_may);
-    denBuoc(TT.thuc_don&&TT.mau?2:1);
+    await denBuoc(TT.thuc_don&&TT.mau?2:1);
   } catch(e){ bao(e.message); }
+  window.WEB?.anTai();
 })();
 </script>
 </body>

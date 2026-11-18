@@ -16,7 +16,7 @@
   tho.onmessage = e => {
     const d = e.data;
     if (d.loai === 'tien_do') { const p = document.getElementById('webTaiNd'); if (p) p.textContent = d.nd; return; }
-    if (d.loai === 'xong') { man.remove(); xong(); return; }
+    if (d.loai === 'xong') { const p = document.getElementById('webTaiNd'); if (p) p.textContent = 'Đang mở thực đơn và sổ đã lưu...'; xong(); return; }
     if (d.loai === 'hong') {
       document.getElementById('webTaiNd').textContent = 'Không khởi động được: ' + d.nd;
       document.getElementById('webTaiPhu').textContent = 'Hãy kiểm tra mạng rồi tải lại trang. Lần đầu cần mạng để tải Python.';
@@ -62,5 +62,5 @@
     setTimeout(() => URL.revokeObjectURL(url), 10000);
   }, true);
 
-  window.WEB = {sanSang, fetch: webFetch};
+  window.WEB = {sanSang, fetch: webFetch, anTai: () => man.remove()};
 })();
