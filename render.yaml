@@ -1,0 +1,28 @@
+# Render Blueprint: tạo máy chủ chạy Sổ kiểm thực trên internet.
+# Ổ đĩa /var/data giữ thực đơn, sổ, quy tắc, sổ tay giữa các lần khởi động lại (cần gói trả phí Starter).
+services:
+  - type: web
+    name: so-kiem-thuc
+    runtime: python
+    region: singapore
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    healthCheckPath: /healthz
+    disk:
+      name: du-lieu
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: SKT_DAM_MAY
+        value: "1"
+      - key: SKT_DU_LIEU
+        value: /var/data
+      - key: SKT_BI_MAT
+        generateValue: true
+      - key: SKT_MA_TRUY_CAP      # mã cho nhân viên, ít nhất 8 ký tự
+        sync: false
+      - key: SKT_MA_QUAN_TRI      # mã vào Quản trị, khác mã nhân viên
+        sync: false

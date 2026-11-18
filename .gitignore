@@ -1,0 +1,13 @@
+# Dữ liệu công ty và kết quả: không đưa lên GitHub
+du_lieu/
+ket_qua/
+lich_su/
+doi_chieu/
+quy_tac.json
+*.xlsx
+*.xls
+*.log
+.venv/
+__pycache__/
+*.pyc
+.DS_Store

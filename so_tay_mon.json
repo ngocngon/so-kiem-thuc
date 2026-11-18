@@ -1,0 +1,1312 @@
+{
+ "NEM RAN": [
+  "BA CHI",
+  "HANH TAY",
+  "CA ROT",
+  "MIEN",
+  "MOC NHI",
+  "HANH LA",
+  "MUI TA",
+  "GIA DO",
+  "TRUNG GA",
+  "LA NEM",
+  "NAC VAI",
+  "MIEN DONG",
+  "GIA DO VN",
+  "TRUNG GA CN >60G/EA"
+ ],
+ "NEM CUON": [
+  "BA CHI",
+  "HANH TAY",
+  "CA ROT",
+  "MIEN",
+  "MOC NHI",
+  "HANH LA",
+  "MUI TA",
+  "GIA DO",
+  "TRUNG GA",
+  "LA NEM",
+  "NAC VAI",
+  "MIEN DONG",
+  "GIA DO VN"
+ ],
+ "NEM CUON THIT": [
+  "NAC VAI",
+  "HANH TAY",
+  "CA ROT",
+  "MIEN",
+  "MOC NHI",
+  "HANH LA",
+  "MUI TA",
+  "GIA DO",
+  "TRUNG GA",
+  "LA NEM",
+  "MIEN DONG",
+  "GIA DO VN"
+ ],
+ "MUOI VUNG": [
+  "LAC",
+  "VUNG",
+  "LAC NHAN",
+  "VUNG TRANG"
+ ],
+ "CU QUA LUOC": [
+  "SU SU",
+  "CA ROT",
+  "CU CAI"
+ ],
+ "THIT GIA CAY": [
+  "KHOANH GIO",
+  "NAC VAI",
+  "DU DU",
+  "RAU NGO",
+  "RIENG",
+  "MAM TOM"
+ ],
+ "THIT GIA BE": [
+  "KHOANH GIO",
+  "NAC VAI",
+  "CA ROT",
+  "OT SUNG",
+  "HANH TAY",
+  "RAU NGO"
+ ],
+ "DUA GOP": [
+  "DU DU",
+  "CA ROT",
+  "MUI TA"
+ ],
+ "DAU NHOI THIT": [
+  "DAU PHU",
+  "THIT",
+  "NAC VAI",
+  "MOC NHI",
+  "CA CHUA"
+ ],
+ "GIA DO TRAN": [
+  "GIA DO",
+  "HANH LA",
+  "CA ROT",
+  "GIA DO VN"
+ ],
+ "GIA DO TRAN HANH": [
+  "GIA DO",
+  "HANH LA",
+  "CA ROT",
+  "GIA DO VN"
+ ],
+ "BANH CUON THIT NUONG": [
+  "BANH CUON",
+  "NAC VAI",
+  "BA CHI"
+ ],
+ "BAP CAI MUOI": [
+  "BAP CAI",
+  "RAU RAM",
+  "CA ROT",
+  "BAP CAI MUOI",
+  "CA ROT MUOI",
+  "RAU RAM MUOI"
+ ],
+ "TOM DIU RANG LA CHANH": [
+  "TOM",
+  "HANH TAY",
+  "LA CHANH"
+ ],
+ "VIT OM KHOAI": [
+  "VIT",
+  "KHOAI",
+  "MUI TAU",
+  "KHOAI SO"
+ ],
+ "CA BASA KHO THIT": [
+  "CA BA SA",
+  "CHUOI XANH",
+  "BA CHI",
+  "THIT BA CHI",
+  "GIENG XAY",
+  "OT KIM"
+ ],
+ "CHA CHIEN": [
+  "CHA LUA"
+ ],
+ "GIO DIM": [
+  "GIO LUA"
+ ],
+ "COM RANG": [
+  "GAO KHANG DAN",
+  "CA ROT",
+  "DO COVE",
+  "DUA CHUA",
+  "HANH LA",
+  "NGO",
+  "XUC XICH",
+  "TRUNG",
+  "NGO NGOT",
+  "GAO KHANG DAN MB, 25KG/PAC"
+ ],
+ "CHAO": [
+  "GAO",
+  "NEP",
+  "NAC VAI",
+  "TIA TO"
+ ],
+ "BUN": [
+  "XUONG ONG",
+  "MONG GIO",
+  "TRAU VAI",
+  "NAC VAI"
+ ],
+ "PHO": [
+  "XUONG ONG",
+  "MONG GIO",
+  "TRAU VAI",
+  "NAC VAI"
+ ],
+ "MIEN XAO THAP CAM": [
+  "NAC VAI",
+  "CHA LUA",
+  "CAI NGOT",
+  "BAP CAI",
+  "MIEN DONG",
+  "MOC NHI",
+  "HANH KHO",
+  "XUC XICH"
+ ],
+ "BUN HAI SAN": [
+  "BUN",
+  "CA CHIM",
+  "MUC",
+  "TOM",
+  "CHA CA",
+  "XUONG ONG",
+  "TC, BUN TUOI",
+  "MUC TUOI",
+  "TOM THE 100-130",
+  "KIM CHI",
+  "CA CHUA",
+  "CHA CA DAC BIET"
+ ],
+ "XOI": [
+  "NEP",
+  "GAO NEP"
+ ],
+ "CHAO TRAI": [
+  "CON CHAI",
+  "GAO NEP",
+  "HANH KHO",
+  "HANH LA"
+ ],
+ "BANH DA CUA": [
+  "XUONG ONG"
+ ],
+ "TRAU SOT VANG": [
+  "KHOAI TAY",
+  "CA ROT",
+  "MUI TA",
+  "DE SUON TRAU"
+ ],
+ "BO SOT VANG": [
+  "MA TRAU"
+ ],
+ "SUON SOT": [
+  "HANH TAY"
+ ],
+ "CHA LA LOT": [
+  "BA CHI",
+  "NAC VAI",
+  "DAU PHU",
+  "LA LOT"
+ ],
+ "THIT KHAU NHUC": [
+  "DUA CHUA",
+  "NAC VAI"
+ ],
+ "MI GA TIEM": [
+  "CAI CHIP",
+  "XUONG ONG",
+  "TOI GA"
+ ],
+ "PHO THIT NUONG": [
+  "HANH LA",
+  "MUI TAU"
+ ],
+ "LAC CHAO": [
+  "LAC NHAN"
+ ],
+ "BANH CHOCOPIE": [
+  "BANH CHOCOPIE"
+ ],
+ "TRUNG VIT LON": [
+  "TRUNG VIT LON",
+  "RAU RAM"
+ ],
+ "GA KFC": [
+  "GA 1/4"
+ ],
+ "BUN CA HAI SAN": [
+  "BUN TUOI",
+  "CA CHIM",
+  "MUC TUOI",
+  "CHA CA DAC BIET",
+  "DAU PHU",
+  "GIA DO",
+  "CA CHUA"
+ ],
+ "CHA THIT AP BAN GANG": [
+  "NAC VAI",
+  "BA CHI"
+ ],
+ "SUSU CA ROT LUOC": [
+  "SU SU",
+  "CA ROT"
+ ],
+ "RAU MUONG LUOC": [
+  "RAU MUONG"
+ ],
+ "CANH BI THIT": [
+  "BI XANH",
+  "NAC VAI"
+ ],
+ "XUC XICH CHIEN": [
+  "XUC XICH"
+ ],
+ "CANH GA CHIEN": [
+  "CANH GA"
+ ],
+ "GIO BO": [
+  "GIO BO"
+ ],
+ "CANH DUA CHUA": [
+  "DUA CHUA",
+  "NAC VAI"
+ ],
+ "CA CHIM RAN": [
+  "CA CHIM"
+ ],
+ "SUON OM DAU TRANG": [
+  "SUON CO THIT",
+  "KHOAI TAY",
+  "CA ROT",
+  "DO TRANG"
+ ],
+ "BAP CAI LUOC": [
+  "BAP CAI"
+ ],
+ "BI LUOC": [
+  "BI XANH"
+ ],
+ "CANH BI DO THIT": [
+  "HANH LA",
+  "NAC VAI",
+  "BI DO"
+ ],
+ "THIT QUAY XA TAC": [
+  "NAC VAI",
+  "QUA QUAT",
+  "CU XA"
+ ],
+ "CA COM SOT CHUA NGOT": [
+  "CA COM KHO"
+ ],
+ "CANH BI DO": [
+  "NAC VAI",
+  "HANH LA",
+  "BI DO"
+ ],
+ "COM GAO NUT": [
+  "GAO LUT DEN",
+  "GAO THOM",
+  "GAO DEO TA",
+  "GAO NUT"
+ ],
+ "SUON CHAY CARY": [
+  "SUON CHAY",
+  "KHOAI TAY",
+  "CA ROT"
+ ],
+ "DAU SOT": [
+  "DAU PHU",
+  "CA CHUA"
+ ],
+ "TRUNG GA LUOC": [
+  "TRUNG GA"
+ ],
+ "HOA LO CA ROT LUOC": [
+  "HOA LO",
+  "CA ROT"
+ ],
+ "LAC RANG": [
+  "LAC NHAN"
+ ],
+ "CANH BAP CAI CA CHUA": [
+  "BAP CAI",
+  "CA CHUA",
+  "HANH LA",
+  "NAC VAI"
+ ],
+ "CA TEP CHIEN LA LOT": [
+  "CA TEP TUOI"
+ ],
+ "THIT KHO TRUNG": [
+  "TRUNG GA",
+  "NAC VAI"
+ ],
+ "MUC XAO CAN TOI": [
+  "MUC TUOI",
+  "HANH TAY",
+  "CA ROT",
+  "CAN TAY",
+  "TOI BOC",
+  "OT KIM"
+ ],
+ "KHOAI TAY XAO": [
+  "KHOAI TAY"
+ ],
+ "BI TRAN GUNG": [
+  "BI XANH"
+ ],
+ "CANH CAI THIT": [
+  "CAI CANH",
+  "NAC VAI"
+ ],
+ "TOM CHIEN": [
+  "TOM 100-130"
+ ],
+ "GA XIEN": [
+  "GA XIEN"
+ ],
+ "BANH BAO CHAY": [
+  "BANH BAO CHAY"
+ ],
+ "CHAO NGAO": [
+  "GAO NEP",
+  "GAO BAC THOM",
+  "DO XANH",
+  "CON NGAO",
+  "GAO DEO TA",
+  "GAO NEP SAP NGONG",
+  "NGAO"
+ ],
+ "NGO NGOT": [
+  "NGO NGOT"
+ ],
+ "CHAO TOM": [
+  "CHAO TOM"
+ ],
+ "CHAO THIT BI DO": [
+  "NAC VAI"
+ ],
+ "KHOAI LANG": [
+  "KHOAI LANG"
+ ],
+ "BANH CUON": [
+  "BANH CUON"
+ ],
+ "THIT CHIEN": [
+  "NAC VAI",
+  "BA CHI KHONG DA"
+ ],
+ "CHA QUE": [
+  "CHA QUE"
+ ],
+ "TRUNG TRANG HANH": [
+  "TRUNG GA"
+ ],
+ "TOM RANG HANH": [
+  "TOM 100-130"
+ ],
+ "CAI THAO LUOC": [
+  "CAI THAO"
+ ],
+ "BI XAO": [
+  "BI XANH"
+ ],
+ "CANH CHUA GIA DO": [
+  "GIA DO",
+  "NAC VAI",
+  "CA CHUA",
+  "GIA DO VN"
+ ],
+ "BANH MI TU LAM": [
+  "BOT MI"
+ ],
+ "TRUNG GA": [
+  "TRUNG GA"
+ ],
+ "CA TEP CHIEN": [
+  "CA TEP TUOI",
+  "CA TEP"
+ ],
+ "PHO BO SOT VANG": [
+  "PHO TUOI",
+  "XUONG ONG",
+  "MUI TAU",
+  "GIO BO",
+  "BAP BO",
+  "HANH LA"
+ ],
+ "SUON SOT CHUA NGOT": [
+  "SUON CO THIT",
+  "HANH TAY",
+  "CA ROT",
+  "MUI TA"
+ ],
+ "TRUNG CUON HANH": [
+  "TRUNG GA",
+  "HANH LA"
+ ],
+ "GA HAP LA CHANH": [
+  "GA NC HAN QUOC",
+  "LA CHANH"
+ ],
+ "ECH XAO LA LOT": [
+  "ECH",
+  "HANH TAY",
+  "CA ROT",
+  "LA LOT"
+ ],
+ "CAI NGOT LUOC": [
+  "CAI NGOT"
+ ],
+ "CHAN GIO LUOC": [
+  "KHOANH GIO",
+  "NAC VAI"
+ ],
+ "CANH GIA DO": [
+  "GIA DO",
+  "CA CHUA",
+  "HANH LA",
+  "NAC VAI"
+ ],
+ "CA BUNG DAU": [
+  "CA TIM",
+  "DAU PHU",
+  "NAC VAI"
+ ],
+ "BI DO XAO": [
+  "BI DO"
+ ],
+ "CANH DAU CA CHUA": [
+  "DAU PHU",
+  "NAC VAI",
+  "CA CHUA",
+  "HANH LA"
+ ],
+ "BUN THIT NUONG": [
+  "TC, BUN TUOI",
+  "THIT BA CHI",
+  "NAC VAI",
+  "XUONG ONG",
+  "HANH LA",
+  "BUN TUOI",
+  "DAU PHU",
+  "CA CHUA"
+ ],
+ "CHAO BO": [
+  "GAO NEP",
+  "GAO THOM",
+  "HANH LA",
+  "TIA TO",
+  "NAC VAI"
+ ],
+ "CHA BANH GA": [
+  "CHA BANH GA"
+ ],
+ "BANH BAO NHAN TRUNG SUA": [
+  "BANH BAO NHAN TRUNG SUA"
+ ],
+ "SUSU LUOC": [
+  "SU SU"
+ ],
+ "NEM LUI": [
+  "NEM LUI"
+ ],
+ "BANH MI RUOC": [
+  "BANH MI RUOC"
+ ],
+ "BANH BAO CHIEN": [
+  "BANH BAO CHAY"
+ ],
+ "TRUNG OP": [
+  "TRUNG GA",
+  "TRUNG GA CN >60G/EA"
+ ],
+ "THIT RANG MAM TEP": [
+  "NAC VAI",
+  "MAM TEP"
+ ],
+ "THIT NUONG": [
+  "NAC VAI",
+  "THIT BA CHI"
+ ],
+ "DAU CHIEN": [
+  "DAU PHU"
+ ],
+ "THAN LON CHIEN XU": [
+  "NAC VAI",
+  "BOT CHIEN XU"
+ ],
+ "CHA RIM TIEU": [
+  "CHA LUA"
+ ],
+ "DAU HAP": [
+  "DAU PHU"
+ ],
+ "CANH CAI NGAO": [
+  "NGAO",
+  "CAI CANH"
+ ],
+ "CHA COM": [
+  "CHA COM"
+ ],
+ "THIT CHIEN LA MOC MAT": [
+  "LA MOC MAT"
+ ],
+ "CANH GIA DUA": [
+  "DUA XANH",
+  "NAC VAI",
+  "GIA DO",
+  "DUA CHIN",
+  "CA CHUA"
+ ],
+ "THIT XAO XA OT": [
+  "NAC VAI",
+  "KHOANH GIO",
+  "HANH TAY",
+  "CA ROT",
+  "RAU NGO"
+ ],
+ "CHAO SUON BI DO": [
+  "GAO BAC THOM",
+  "GAO NEP",
+  "SUON VAI",
+  "BI DO"
+ ],
+ "XUC XICH": [
+  "XUC XICH"
+ ],
+ "CHAO GA": [
+  "GAO THOM",
+  "GAO NEP",
+  "DO XANH",
+  "GA 1/4",
+  "TIA TO",
+  "NEP SAP NGONG",
+  "GAO DEO TA"
+ ],
+ "CHA BAO SA": [
+  "CHA BAO SA"
+ ],
+ "GIO CAI": [
+  "GIO CAI"
+ ],
+ "MAN DU": [
+  "MAN DU"
+ ],
+ "PHONG TOM": [
+  "PHONG TOM"
+ ],
+ "BUN CA": [
+  "TC, BUN TUOI",
+  "CA CHIM",
+  "CHA CA DAC BIET",
+  "DAU PHU",
+  "CA CHUA",
+  "XUONG ONG",
+  "THI LA",
+  "CA CHIM 2-3KG/CON"
+ ],
+ "THIT BAM": [
+  "NAC VAI"
+ ],
+ "CHA LUA": [
+  "CHA LUA"
+ ],
+ "GA RANG GUNG": [
+  "GA 1/4"
+ ],
+ "DUA CHUA XAO": [
+  "DUA CHUA"
+ ],
+ "CU CAI CA ROT LUOC": [
+  "CA ROT",
+  "CU CAI",
+  "CU CAI VN 400G/CU"
+ ],
+ "CHA LUA CHIEN": [
+  "CHA LUA"
+ ],
+ "CA BASA KHO TO": [
+  "CA BA SA"
+ ],
+ "CANH KHOAI TAY": [
+  "KHOAI TAY",
+  "NAC VAI"
+ ],
+ "DAU PHU SOT CA CHUA": [
+  "DAU PHU",
+  "CA CHUA"
+ ],
+ "THIT RANG HANH": [
+  "NAC VAI",
+  "HANH LA",
+  "THIT BA CHI"
+ ],
+ "PHO GA CHOI": [
+  "DUI GA CHOI MAI HQ",
+  "HANH TAY",
+  "XUONG ONG"
+ ],
+ "NGO NGOT 250~300G/EA": [
+  "NGO NGOT 250~300G/EA"
+ ],
+ "BANH DA CUA HAI PHONG": [
+  "BANH DA CUA",
+  "NAC VAI",
+  "LA LOT",
+  "GIO CAI",
+  "CHA CA DAC BIET",
+  "RAU MUONG",
+  "HANH LA",
+  "CUA XAY",
+  "XUONG ONG",
+  "BA CHI THANH"
+ ],
+ "THIT RANG CHAY CANH": [
+  "THIT BA CHI",
+  "NAC VAI"
+ ],
+ "CA TIM XAO": [
+  "CA TIM"
+ ],
+ "CANH BI NGO THIT": [
+  "BI DO",
+  "NAC VAI",
+  "HANH LA"
+ ],
+ "XOI DO": [
+  "GAO NEP SAP NGONG",
+  "DO XANH"
+ ],
+ "BUN BO HUE": [
+  "BUN SOI TO",
+  "BAP BO",
+  "MONG GIO",
+  "GIO BO",
+  "HANH TAY",
+  "XUONG ONG",
+  "TRAU VAI"
+ ],
+ "TRAU XAO LA LOT": [
+  "HANH TAY",
+  "CA ROT",
+  "LA LOT"
+ ],
+ "NEM NGON": [
+  "NEM NGON"
+ ],
+ "RAU MUONG XAO": [
+  "RAU MUONG"
+ ],
+ "DUA CHUA": [
+  "BAP CAI MUOI",
+  "RAU RAM MUOI",
+  "CA ROT MUOI"
+ ],
+ "THIT KHO LA MOC MAT": [
+  "NAC VAI",
+  "LA MOC MAT"
+ ],
+ "THAN CA CHIEN": [
+  "CA BA SA FILE"
+ ],
+ "CHA CA LA VONG": [
+  "CA TRE",
+  "THI LA"
+ ],
+ "CANH RAU MUONG": [
+  "ME KHO"
+ ],
+ "TRUNG TRANG": [
+  "TRUNG GA"
+ ],
+ "CANH RONG BIEN THIT": [
+  "RONG BIEN",
+  "NAC VAI"
+ ],
+ "MI TOM SUON ,TRUNG GA": [
+  "MI TOM",
+  "SUON CO THIT",
+  "TRUNG GA",
+  "DAU PHU",
+  "CAI NGOT",
+  "HANH LA",
+  "KINH GIOI",
+  "XA LACH",
+  "HUNG QUE",
+  "CA CHUA"
+ ],
+ "NEM TAI NOM XOAI": [
+  "TAI LON",
+  "THIT BA CHI",
+  "XOAI XANH",
+  "CA ROT",
+  "MUI TA"
+ ],
+ "CA CHIM SOT THI LA": [
+  "CA CHIM",
+  "THI LA",
+  "CA CHUA"
+ ],
+ "KHOAI LANG HAP": [
+  "KHOAI LANG"
+ ],
+ "CHAO THIT BAM": [
+  "DO XANH",
+  "NAC VAI",
+  "NEP SAP NGONG",
+  "GAO DEO TA"
+ ],
+ "CHA BAO XA": [
+  "CHA BAO XA"
+ ],
+ "CHAO SUON DO": [
+  "DO XANH",
+  "GAO DEO TA",
+  "SUON VAI",
+  "NEP SAP NGONG"
+ ],
+ "BANH MY TU LAM": [
+  "BOT MI"
+ ],
+ "KHOAI HAP": [
+  "KHOAI LANG"
+ ],
+ "BUN HAI SAN, KIM CHI": [
+  "CA CHIM",
+  "MUC TUOI",
+  "KIM CHI"
+ ],
+ "MY TOM XAO THAP CAM": [
+  "MI TOM HA VIET",
+  "BAP CAI",
+  "CAI NGOT",
+  "MOC NHI",
+  "CA ROT",
+  "GIO LUA",
+  "NAC VAI"
+ ],
+ "NEM LUI NUONG": [
+  "NEM LUI"
+ ],
+ "THIT HAP HANH GUNG": [
+  "KHOANH GIO",
+  "NAC VAI"
+ ],
+ "GA RANG MUOI": [
+  "GA 1/4"
+ ],
+ "CANH DUA CHUA THIT": [
+  "DUA CHUA",
+  "CA CHUA",
+  "NAC VAI"
+ ],
+ "CHA CA SOT CA CHUA": [
+  "CHA CA DAC BIET",
+  "CA CHUA"
+ ],
+ "BUN RIEU CUA TOP MO": [
+  "TC, BUN TUOI",
+  "MA LON",
+  "DAU PHU",
+  "CUA XAY",
+  "HANH LA",
+  "CA CHUA",
+  "XUONG ONG",
+  "BUN TUOI",
+  "TRAU VAI",
+  "THIT MA LON",
+  "CUA",
+  "HANH KHO",
+  "GUNG TUOI",
+  "XA CU"
+ ],
+ "TRAU XAO DUA": [
+  "DUA CHUA"
+ ],
+ "CAI THAO TRAN GUNG": [
+  "CAI THAO"
+ ],
+ "CA LUC CHIEN": [
+  "CA NUC"
+ ],
+ "CHUOI BUNG DAU": [
+  "CHUOI XANH",
+  "DAU PHU",
+  "TIA TO",
+  "LA LOT",
+  "NAC VAI"
+ ],
+ "MI TOM GA CHOI,TRUNG GA": [
+  "MI TOM",
+  "GA CHOI HQ",
+  "DAU PHU",
+  "TRUNG GA",
+  "CAI NGOT",
+  "HANH LA",
+  "KINH GIOI",
+  "XA LACH",
+  "HUNG QUE",
+  "CA CHUA"
+ ],
+ "SUON SOT TUONG CA": [
+  "HANH TAY",
+  "CA ROT",
+  "SUON CO THIT"
+ ],
+ "CANH KHOAI TAY THIT": [
+  "KHOAI TAY",
+  "CA CHUA",
+  "NAC VAI"
+ ],
+ "KHOAI TAY CHIEN": [
+  "KHOAI TAY"
+ ],
+ "CHAO CHIM": [
+  "NAC VAI",
+  "CHIM CUT",
+  "TIA TO",
+  "GAO DEO TA"
+ ],
+ "CHAO CA THI LA": [
+  "CA RO PHI",
+  "GAO DEO TA",
+  "THI LA"
+ ],
+ "XOI LAC": [
+  "NEP SAP NGONG",
+  "LAC NHAN"
+ ],
+ "TOM RANG THIT": [
+  "TOM 100-130",
+  "NAC VAI"
+ ],
+ "BUN VIT MANG": [
+  "BUN TUOI",
+  "VIT TUOI",
+  "MANG KHO",
+  "MUI TAU",
+  "XUONG ONG"
+ ],
+ "GA CHIEN VUNG": [
+  "GA 1/4",
+  "VUNG TRANG"
+ ],
+ "TRUNG CUON JAMBONG": [
+  "TRUNG GA CN >60G/EA",
+  "XUC XICH"
+ ],
+ "CHAN GIO CUON HAP": [
+  "KHOANH GIO"
+ ],
+ "CANH CAI CANH": [
+  "CAI CANH",
+  "NAC VAI"
+ ],
+ "TRAU XAO CAN TOI": [
+  "THIT TRAU MONG",
+  "HANH TAY",
+  "CA ROT",
+  "CAN TOI TAY"
+ ],
+ "CANH RONG BIEN DAU": [
+  "DAU PHU",
+  "RONG BIEN"
+ ],
+ "SUON NUONG": [
+  "SUON CO THIT"
+ ],
+ "NEM THIT NGON": [
+  "NEM THIT NGON",
+  "NEM NGON"
+ ],
+ "MI TOM BO,TRUNG GA": [
+  "MI TOM",
+  "BO VAI",
+  "DAU PHU",
+  "CAI NGOT",
+  "HANH LA",
+  "KINH GIOI",
+  "XA LACH",
+  "HUNG QUE",
+  "CA CHUA",
+  "TRUNG GA"
+ ],
+ "CA COM SOT LAC": [
+  "CA COM KHO",
+  "LAC NHAN"
+ ],
+ "GA OM MOC MAT": [
+  "MA GA",
+  "LA MOC MAT"
+ ],
+ "CHAO SUON": [
+  "NEP SAP NGONG",
+  "BI DO",
+  "GAO DEO TA",
+  "SUON VAI"
+ ],
+ "CAI NGOT TRAN GUNG": [
+  "CAI NGOT"
+ ],
+ "BUN XAO SPAGETTY": [
+  "BUN SOI TO",
+  "TRAU MONG",
+  "TUONG CA",
+  "KHOAI TAY"
+ ],
+ "THAN CA CHIEN XU": [
+  "THAN CA BASA FILE",
+  "BOT XU"
+ ],
+ "CANH BAP CAI THIT": [
+  "BAP CAI",
+  "NAC VAI"
+ ],
+ "XOI THIT BAM": [
+  "GAO NEP CAI HOA VANG, 25KG/PAC",
+  "DO XANH",
+  "NAC VAI"
+ ],
+ "DAU PHU CHIEN": [
+  "DAU PHU"
+ ],
+ "COM RANG XI DAU": [
+  "NGO NGOT",
+  "DO COVE",
+  "DUA CHUA",
+  "CA ROT"
+ ],
+ "CAI THAO XAO": [
+  "CAI THAO"
+ ],
+ "THIT QUAY MOC MAT": [
+  "NAC VAI"
+ ],
+ "TRUNG CUT LUOC": [
+  "TRUNG CUT"
+ ],
+ "MI TOM THIT NUONG ,TRUNG GA": [
+  "MI TOM",
+  "TRUNG GA",
+  "DAU PHU",
+  "CAI NGOT",
+  "HANH LA",
+  "KINH GIOI",
+  "XA LACH",
+  "HUNG QUE",
+  "CA CHUA"
+ ],
+ "MI TOM XAO THAP CAM": [
+  "MI TOM HA VIET",
+  "BAP CAI",
+  "MOC NHI",
+  "CA ROT"
+ ],
+ "PHO TRAU": [
+  "PHO TUOI",
+  "HANH LA",
+  "XUONG ONG"
+ ],
+ "BANH MI TRA": [
+  "BOT MI",
+  "BOT TRA XANH"
+ ],
+ "CHAO TOM THIT": [
+  "GAO DEO TA",
+  "NAC VAI",
+  "TOM NON"
+ ],
+ "BANH BAO KHOAI MON": [
+  "BANH BAO KHOAI MON"
+ ],
+ "THIT LUOC": [
+  "KHOANH GIO",
+  "NAC VAI"
+ ],
+ "GA XOC MAM": [
+  "MA GA"
+ ],
+ "THIT KHO TAU": [
+  "THIT BA CHI",
+  "NAC VAI",
+  "CU CAI"
+ ],
+ "THIT CHAN GIO GIA CAY": [
+  "KHOANH GIO",
+  "RAU NGO"
+ ],
+ "CU CAI KHO XAO THIT": [
+  "CU CAI KHO",
+  "NAC VAI"
+ ],
+ "TRAU XAO RAU MUONG": [
+  "TRAU VAI",
+  "RAU MUONG"
+ ],
+ "BI NGO XAO": [
+  "BI DO",
+  "QUA BI DO DAI"
+ ],
+ "BANH MY": [
+  "BOT MI"
+ ],
+ "PHO GA": [
+  "PHO TUOI",
+  "DUI GA CHOI MAI",
+  "XUONG ONG",
+  "HANH LA"
+ ],
+ "HOA LO CA ROT LUOC CHAM MUOI VUNG": [
+  "SUP LO XANH",
+  "CU CA ROT 200G/CU",
+  "VUNG TRANG 1KG/GOI"
+ ],
+ "SUON OM KHOAI": [
+  "KHOAI TAY",
+  "CA ROT"
+ ],
+ "GIO TAI HAP": [
+  "GIO TAI"
+ ],
+ "DUA GO": [
+  "DU DU",
+  "CA ROT",
+  "MUI TA"
+ ],
+ "CHAO THIT": [
+  "GAO DEO TA",
+  "GAO NEP SAP NGONG",
+  "NAC VAI",
+  "DO XANH"
+ ],
+ "BANH MY NHAN DUA": [
+  "DUA NAO"
+ ],
+ "CHAO GA XE": [
+  "GAO NEP SAP NGONG",
+  "GAO DEO TA"
+ ],
+ "BUN CUA THIT NUONG": [
+  "TC, BUN TUOI",
+  "DAU PHU",
+  "CUA XAY",
+  "HANH LA",
+  "XUONG ONG",
+  "BA CHI"
+ ],
+ "ECH XAO MANG": [
+  "ECH",
+  "HANH TAY",
+  "CA ROT",
+  "MANG KHO",
+  "LA LOT"
+ ],
+ "DAU SOT CA": [
+  "DAU PHU",
+  "CA CHUA"
+ ],
+ "GA LUOC LA CHANH": [
+  "GA GIA NC HAN QUOC",
+  "LA CHANH"
+ ],
+ "THIT SOT CA CHUA": [
+  "BA CHI KHONG RA",
+  "NAC VAI",
+  "CA CHUA",
+  "HANH LA",
+  "BA CHI KHONG CO DA"
+ ],
+ "CA BASA KHO CHUOI": [
+  "CHUOI XANH"
+ ],
+ "SUON SOT BBQ": [
+  "SUON CO THIT",
+  "HANH TAY",
+  "CA ROT"
+ ],
+ "NEM THIT CHIEN": [
+  "NEM NGON"
+ ],
+ "CHAN GIO HAP": [
+  "KHOANH GIO"
+ ],
+ "BUN LA": [
+  "BUN LA"
+ ],
+ "TRUNG VIT LON 50-55GR/QUA": [
+  "TRUNG VIT LON 50-55GR/QUA",
+  "RAU RAM",
+  "GUNG TUOI"
+ ],
+ "NEM HAI SAN": [
+  "TOM NON",
+  "MUC TUOI",
+  "MAYONES",
+  "MOC NHI",
+  "MIEN DONG",
+  "HANH TAY",
+  "CA ROT",
+  "GIA DO VN",
+  "HANH LA",
+  "MUI TA",
+  "LA NEM"
+ ],
+ "THIT KHO CU CAI": [
+  "THIT LON NAC VAI",
+  "HANH LA",
+  "CU CAI VN 400G/CU"
+ ],
+ "THIT QUAY GION BI": [
+  "BA CHI"
+ ],
+ "DUA MUOI": [
+  "BAP CAI MUOI",
+  "CA ROT MUOI",
+  "RAU RAM MUOI",
+  "RAU RAM"
+ ],
+ "CA TRE CHIEN GIENG": [
+  "CA TRE",
+  "GIENG XAY"
+ ],
+ "THIT CHIEN VUNG": [
+  "NAC VAI",
+  "VUNG TRANG"
+ ],
+ "CANH DUA THIT": [
+  "CA CHUA"
+ ],
+ "CANH GIA DO THIT": [
+  "GIA DO VN",
+  "CA CHUA",
+  "NAC VAI"
+ ],
+ "HOA LO LUOC": [
+  "HOA LO"
+ ],
+ "BANH MI NHAN DAU DO": [
+  "BOT MI",
+  "NHAN DAU DO"
+ ],
+ "CANH CAI CANH THIT": [
+  "CAI CANH",
+  "NAC VAI"
+ ],
+ "TOM CHIEN HOANG BAO": [
+  "TOM 90-110"
+ ],
+ "GA AP CHAO SOT CHANH LEO": [
+  "THIT GA 1/4",
+  "CHANH LEO"
+ ],
+ "TRUNG NGAM TUONG HONG": [
+  "TRUNG GA",
+  "CU DEN"
+ ],
+ "KIM CHI": [
+  "KIM CHI CAI THAO"
+ ],
+ "CAI CHIP XAO NAM": [
+  "CAI CHIP",
+  "NAM HUONG"
+ ],
+ "XA LACH": [
+  "XA LACH XOAN"
+ ],
+ "MANDU": [
+  "MANDU"
+ ],
+ "GA HAP LA THOM": [
+  "LA NEP"
+ ],
+ "CANH NGAO CHUA": [
+  "NGAO"
+ ],
+ "NUOC NGOT": [
+  "NUOC NGOT"
+ ],
+ "SUON NUONG COT DUA": [
+  "SUON LON",
+  "NUOC COT DUA"
+ ],
+ "CANH CHUA THIT": [
+  "GIA DO VN",
+  "QUA CA CHUA",
+  "HANH LA"
+ ],
+ "CAI NGOT XAO": [
+  "CAI NGOT"
+ ],
+ "DUA VANG": [
+  "DUA VANG"
+ ],
+ "THIT HAP": [
+  "KHOANH GIO",
+  "NAC VAI"
+ ],
+ "NGO LUOC": [
+  "NGO NGOT"
+ ],
+ "BUN CHA CHAN THIT NUONG": [
+  "XUONG ONG"
+ ],
+ "CA TRE KHO CHUOI": [
+  "CA TRE",
+  "CHUOI XANH"
+ ],
+ "BUN THANG": [
+  "BUN TUOI",
+  "NAC VAI",
+  "GIO LUA",
+  "TRUNG GA",
+  "LUON GA",
+  "XUONG ONG"
+ ],
+ "MONG GIO KHO TAU": [
+  "MONG GIO"
+ ],
+ "TRUNG KHO THIT": [
+  "NAC VAI"
+ ],
+ "CANH GIA DO CHUA": [
+  "GIA DO",
+  "NAC VAI",
+  "CA CHUA"
+ ],
+ "GA XIEN QUE": [
+  "GA XIEN"
+ ],
+ "CAA TEP CHIEN": [
+  "CA TEP TUOI"
+ ],
+ "CA CHIM CHIEN": [
+  "CA CHIM"
+ ],
+ "CA CHIM SOT CA CHUA": [
+  "CA CHIM",
+  "CA CHUA",
+  "THI LA"
+ ],
+ "COM GAO LUT": [
+  "GAO LUT DEN"
+ ],
+ "CHIM CUT XAO HANH RAM": [
+  "CHIM CUT",
+  "NAC VAI"
+ ],
+ "CA LUC KHO": [
+  "CHUOI XANH"
+ ]
+}
